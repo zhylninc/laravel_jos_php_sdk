@@ -1,0 +1,31 @@
+{
+  "name": "zhylninc/laravel_jos_php_sdk",
+  "type": "library",
+  "description": "laravel_jos_php(SDK) for laravel 5.1",
+  "keywords": [
+    "laravel",
+    "jos",
+    "php",
+    "sdk",
+    "api"
+  ],
+  "homepage": "https://github.com/zhylninc/laravel_jos_php_sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhylninc",
+      "email": "zhylninc@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "~5.0|~5.1|~5.2",
+    "graham-campbell/manager": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "zhylninc\\JosClient\\": "src/",
+      "JosClient\\": "src/lib/"
+    }
+  }
+}
