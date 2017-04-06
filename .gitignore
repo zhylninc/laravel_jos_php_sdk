@@ -5,3 +5,6 @@
 
 # files created by running the specs
 /.idea
+/vendor
+composer.phar
+composer.lock
